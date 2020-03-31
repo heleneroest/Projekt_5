@@ -52,15 +52,20 @@ hr{
 
 .navbar{
   flex: 1;
+
 }
 
 .content{
+
+flex: 7;
+
   flex: 7;
+
 
 }
 
 .grid-container{
-  display: grid;
+display: grid;
   grid-template-columns: 1fr 2fr;
   row-gap: 5%;
 }
@@ -71,6 +76,25 @@ hr{
   row-gap: 5%;
   align-items: center;
 }
+
+/* Ice overskift */
+.serif{
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 40px;
+  }
+
+  .sansserif{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+  }
+
+  .monospace{
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: 20px;
+  }
+
+
 
 .pinkboks{
   width: 70px;
@@ -87,18 +111,17 @@ hr{
   height: 70px;
   background: #ffffff;
   border: 1px solid black;
+
 }
 
-.sortboks{
-  width: 70px;
-  height: 70px;
-  background: #000000;
-  margin-top: 5px;
-}
 
-.morkeblaeboks{
-  width: 70px;
-  height: 70px;
-  background: #10244A;
-  margin-top: 5px;
+
+
+/*Styling til "Knapper" siden*/
+.button1 {
+  border-radius: 15px;
+  border-color: #C52C7F;
+  border-width: 5px;
+  font-size: 17px;
+  cursor: pointer;
 }
