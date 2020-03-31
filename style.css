@@ -65,6 +65,13 @@ hr{
   row-gap: 5%;
 }
 
+.grid-container-ikoner{
+  display: grid;
+  grid-template-columns: 1fr 15fr;
+  row-gap: 5%;
+  align-items: center;
+}
+
 .pinkboks{
   width: 70px;
   height: 70px;
