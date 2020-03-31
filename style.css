@@ -1,3 +1,10 @@
+body{
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -18,7 +25,7 @@ li a {
 }
 
 li a.active {
-  background-color: #4CAF50;
+  background-color: rgb(211, 199, 201);
   color: white;
 }
 
@@ -32,4 +39,23 @@ li a:hover:not(.active) {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+hr{
+  margin-bottom: 5px;
+  border: 2px solid rgb(10, 36, 76);
+}
+
+.flex-container{
+  display: flex;
+}
+
+.navbar{
+  flex: 1;
+  
+}
+
+.content{
+flex: 7;
+
 }
