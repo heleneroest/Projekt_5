@@ -52,16 +52,11 @@ hr{
 
 .navbar{
   flex: 1;
-
 }
 
 .content{
-
-flex: 7;
-
   flex: 7;
-
-
+  flex: 7;
 }
 
 .grid-container{
@@ -94,8 +89,7 @@ display: grid;
   font-size: 20px;
   }
 
-
-
+/* Farver */
 .pinkboks{
   width: 70px;
   height: 70px;
@@ -108,7 +102,6 @@ display: grid;
   height: 70px;
   background: #ffffff;
   border: 1px solid black;
-<<<<<<< HEAD
   border-radius: 10px;
 }
 
@@ -128,21 +121,26 @@ display: grid;
   border-radius: 10px;
 }
 
+/* Farver slut */
+/* Skrifttyper */
 .kodeskrifth1{
   margin-top: 80px;
-=======
-
 }
 
-
-
-
-/*Styling til "Knapper" siden*/
-.button1 {
-  border-radius: 15px;
-  border-color: #C52C7F;
-  border-width: 5px;
-  font-size: 17px;
-  cursor: pointer;
->>>>>>> 8d458b7a3f1f75dee6b8608008cf85ac32f6ad0b
+.kodeskrifth2{
+  margin-top: 65px;
 }
+
+.kodeskrifth3{
+  margin-top: 55px;
+}
+
+.kodeskrifth4{
+  margin-top: 42px;
+}
+
+.kodeskriftp{
+  margin-top: 36px;
+}
+
+/* Skrifttyper slut */
