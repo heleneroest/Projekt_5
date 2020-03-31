@@ -64,3 +64,12 @@ flex: 7;
 display: grid;
   grid-template-columns: 1fr 2fr;
 }
+
+/*Styling til "Knapper" siden*/
+.button1 {
+  border-radius: 15px;
+  border-color: #C52C7F;
+  border-width: 5px;
+  font-size: 17px;
+  cursor: pointer;
+}
