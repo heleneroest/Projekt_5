@@ -64,3 +64,34 @@ hr{
   grid-template-columns: 1fr 2fr;
   row-gap: 5%;
 }
+
+.pinkboks{
+  width: 70px;
+  height: 70px;
+  background: #c52c7f;
+}
+
+.pinkboks div{
+
+}
+
+.hvidboks{
+  width: 70px;
+  height: 70px;
+  background: #ffffff;
+  border: 1px solid black;
+}
+
+.sortboks{
+  width: 70px;
+  height: 70px;
+  background: #000000;
+  margin-top: 5px;
+}
+
+.morkeblaeboks{
+  width: 70px;
+  height: 70px;
+  background: #10244A;
+  margin-top: 5px;
+}
