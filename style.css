@@ -81,7 +81,7 @@ display: grid;
 .serif{
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 27px;
   }
 
   .sansserif{
@@ -91,7 +91,7 @@ display: grid;
 
   .monospace{
   font-family: "Lucida Console", Courier, monospace;
-  font-size: 13px;
+  font-size: 15px;
   }
 
 
