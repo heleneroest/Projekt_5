@@ -52,15 +52,15 @@ hr{
 
 .navbar{
   flex: 1;
-
 }
 
 .content{
-flex: 7;
+  flex: 7;
 
 }
 
 .grid-container{
-display: grid;
+  display: grid;
   grid-template-columns: 1fr 2fr;
+  row-gap: 5%;
 }
