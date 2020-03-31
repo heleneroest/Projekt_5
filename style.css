@@ -131,23 +131,23 @@ display: grid;
 /* Farver slut */
 /* Skrifttyper */
 .kodeskrifth1{
-  margin-top: 80px;
-}
-
-.kodeskrifth2{
   margin-top: 65px;
 }
 
+.kodeskrifth2{
+  margin-top: 50px;
+}
+
 .kodeskrifth3{
-  margin-top: 55px;
+  margin-top: 45px;
 }
 
 .kodeskrifth4{
-  margin-top: 42px;
+  margin-top: 27px;
 }
 
 .kodeskriftp{
-  margin-top: 36px;
+  margin-top: 23px;
 }
 
 /* Skrifttyper slut */
