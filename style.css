@@ -96,6 +96,16 @@ display: grid;
   font-size: 15px;
   }
 
+  /*Styling til "Knapper" siden*/
+  .button1 {
+    border-radius: 15px;
+    border-color: #C52C7F;
+    border-width: 5px;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  /*Knapper slut*/
+
 /* Farver */
 .pinkboks{
   width: 70px;
