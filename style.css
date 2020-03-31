@@ -56,11 +56,13 @@ hr{
 
 .content{
   flex: 7;
+
 }
 
 .grid-container{
   display: grid;
   grid-template-columns: 1fr 2fr;
+  row-gap: 5%;
 }
 
 .pinkboks{
@@ -70,7 +72,7 @@ hr{
 }
 
 .pinkboks div{
-  
+
 }
 
 .hvidboks{
