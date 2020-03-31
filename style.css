@@ -76,6 +76,19 @@ display: grid;
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   font-size: 40px;
+  }
+
+  .sansserif{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+  }
+
+  .monospace{
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: 20px;
+  }
+
+
 
 .pinkboks{
   width: 70px;
@@ -95,14 +108,8 @@ display: grid;
 
 }
 
-.sansserif{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
-}
 
-.monospace{
-font-family: "Lucida Console", Courier, monospace;
-}
+
 
 /*Styling til "Knapper" siden*/
 .button1 {
