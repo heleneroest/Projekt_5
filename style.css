@@ -72,6 +72,12 @@ display: grid;
   row-gap: 5%;
 }
 
+.grid-container1{
+display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 5%;
+}
+
 .grid-container-ikoner{
   display: grid;
   grid-template-columns: 1fr 15fr;
@@ -79,33 +85,30 @@ display: grid;
   align-items: center;
 }
 
-/* Ice overskift */
-.serif{
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bold;
-  font-size: 27px;
-  }
+/* Overskifter */
+.kodeoverskrift1{
+  margin-top: 22px;
+}
 
-  .sansserif{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-  }
+.kodebeskrivelse{
+  margin-top: 22px;
+}
 
-  .monospace{
-  font-family: "Lucida Console", Courier, monospace;
-  font-size: 15px;
-  }
+.kodebroedtekst{
+  margin-top: 22px;
+}
 
-  /*Styling til "Knapper" siden*/
-  .button1 {
-    border-radius: 15px;
-    border-color: #C52C7F;
-    border-width: 5px;
-    font-size: 17px;
-    cursor: pointer;
-  }
-  /*Knapper slut*/
+/* Overskifter slut */
+/*Styling til "Knapper" siden*/
+.button1 {
+  border-radius: 15px;
+  border-color: #C52C7F;
+  border-width: 5px;
+  font-size: 17px;
+  cursor: pointer;
+}
 
+/*Knapper slut*/
 /* Farver */
 .pinkboks{
   width: 70px;
@@ -158,6 +161,14 @@ display: grid;
 
 .kodeskriftp{
   margin-top: 23px;
+}
+
+.kodeskriftbold{
+  margin-top: 22px;
+}
+
+.kodeskriftitalic{
+  margin-top: 22px;
 }
 
 /* Skrifttyper slut */
