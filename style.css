@@ -53,6 +53,13 @@ hr.header{
   margin: 0%;
 }
 
+hr.app{
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 5px;
+  border: 1px solid rgb(10, 36, 76);
+}
+
 .flex-container{
   display: flex;
 }
