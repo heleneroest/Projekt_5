@@ -172,3 +172,68 @@ display: grid;
 }
 
 /* Skrifttyper slut */
+/* Header */
+header{
+  background-color: #c52c7f;
+  height: 150px;
+}
+
+/* Header slut*/
+/* Forside */
+.grid-containerforside{
+  display: grid;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-itemforside{
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+}
+
+.item1forside{
+  padding: 350px;
+}
+
+.item2forside{
+  padding: 123px;
+}
+
+.item3forside{
+  padding: 123px;
+}
+
+.item4forside{
+  padding: 123px;
+}
+
+.item5forside{
+  padding: 123px;
+}
+
+.item1forside{
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+.item2forside{
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}
+
+.item3forside{
+  grid-column: 1 / span 2;
+  grid-row: 3;
+}
+
+.item4forside{
+  grid-column: 1 / span 2;
+  grid-row: 4;
+}
+
+.item5forside{
+  grid-column: 1 / span 2;
+  grid-row: 5;
+}
