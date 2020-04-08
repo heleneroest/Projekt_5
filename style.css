@@ -190,27 +190,51 @@ header{
 .grid-itemforside{
   background-color: #ffffff;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
+}
+
+.grid-containerforside b{
+  color: #;
 }
 
 .item1forside{
-  padding: 350px;
+
+}
+
+.item1forside img{
+
 }
 
 .item2forside{
-  padding: 123px;
+padding: 123px;
+}
+
+.item2forside img{
+
 }
 
 .item3forside{
   padding: 123px;
 }
 
+.item3forside img{
+
+}
+
 .item4forside{
   padding: 123px;
 }
 
+.item4forside img{
+
+}
+
 .item5forside{
   padding: 123px;
+}
+
+.item5forside img{
+
 }
 
 .item1forside{
