@@ -85,6 +85,28 @@ display: grid;
   align-items: center;
 }
 
+.grid-container-klippekort{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 5;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.flex-container {
+  display: flex;
+  transform: skewX(-20deg);
+}
+
+.flex-container > div {
+  background-color: #ea595e;
+  opacity: 0.4;
+  margin: 5px;
+  padding: 30px;
+  font-size: 30px;
+}
+
 /* Overskifter */
 .kodeoverskrift1{
   margin-top: 22px;
