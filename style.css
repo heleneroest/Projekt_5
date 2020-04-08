@@ -197,7 +197,16 @@ display: grid;
 /* Header */
 header{
   background-color: #c52c7f;
-  height: 150px;
+  height: 180px;
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  padding-top: 80px;
+
 }
 
 /* Header slut*/
@@ -224,7 +233,7 @@ header{
 }
 
 .item1forside img{
-
+  width: 100%;
 }
 
 .item2forside{
