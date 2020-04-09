@@ -53,13 +53,6 @@ hr.header{
   margin: 0%;
 }
 
-hr.app{
-  margin-left: 0%;
-  margin-right: 0%;
-  margin-bottom: 5px;
-  border: 1px solid rgb(10, 36, 76);
-}
-
 .flex-container{
   display: flex;
 }
@@ -90,6 +83,33 @@ display: grid;
   grid-template-columns: 1fr 15fr;
   row-gap: 5%;
   align-items: center;
+}
+
+.grid-container-klippekort{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 3%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 10%;
+   align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  transform: skewX(-20deg);
+}
+
+.flex-container > div {
+  background-color: #ea595e;
+  opacity: 0.4;
+  margin: 5px;
+  padding: 30px;
+  font-size: 30px;
+}
+/* Klippekort */
+.inactive{
+  opacity: 0.4;
 }
 
 /* Overskifter */
