@@ -57,6 +57,18 @@ hr.header{
   display: flex;
 }
 
+.flexbox_header{
+  display: flex;
+}
+
+.flex1{
+  flex: 1;
+}
+
+.flex2{
+  flex: 7;
+}
+
 .navbar{
   flex: 1;
 }
