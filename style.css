@@ -206,7 +206,6 @@ header{
   margin-right: auto;
   width: 300px;
   padding-top: 80px;
-
 }
 
 /* Header slut*/
@@ -215,7 +214,7 @@ header{
   display: grid;
   grid-gap: 10px;
   background-color: #2196F3;
-  padding: 10px;
+  padding: 5px;
 }
 
 .grid-itemforside{
@@ -233,11 +232,11 @@ header{
 }
 
 .item1forside img{
-  width: 100%;
+  width: 950px;
 }
 
 .item2forside{
-padding: 123px;
+  padding: 140px;
 }
 
 .item2forside img{
@@ -245,7 +244,7 @@ padding: 123px;
 }
 
 .item3forside{
-  padding: 123px;
+  padding: 140px;
 }
 
 .item3forside img{
@@ -253,7 +252,7 @@ padding: 123px;
 }
 
 .item4forside{
-  padding: 123px;
+  padding: 140px;
 }
 
 .item4forside img{
@@ -261,7 +260,7 @@ padding: 123px;
 }
 
 .item5forside{
-  padding: 123px;
+  padding: 140px;
 }
 
 .item5forside img{
