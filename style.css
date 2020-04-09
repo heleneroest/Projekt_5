@@ -95,10 +95,11 @@ display: grid;
 .grid-container-klippekort{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  row-gap: 5;
+  row-gap: 3%;
   margin-right: 10%;
   margin-left: 10%;
   margin-top: 10%;
+   align-items: center;
 }
 
 .flex-container {
@@ -112,6 +113,10 @@ display: grid;
   margin: 5px;
   padding: 30px;
   font-size: 30px;
+}
+/* Klippekort */
+.inactive{
+  opacity: 0.4;
 }
 
 /* Overskifter */
