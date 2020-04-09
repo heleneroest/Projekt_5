@@ -213,7 +213,6 @@ display: grid;
 
 .grid-itemstrib{
   background-color: rgba(255, 255, 255, 0.8);
-
   padding: 20px;
   font-size: 30px;
 }
@@ -223,6 +222,9 @@ display: grid;
     grid-row: 1;
 }
 
+.item1striber img{
+
+}
 .item2striber {
   grid-column: 1;
     grid-row: 2;
@@ -241,6 +243,7 @@ display: grid;
 .item4striber {
   grid-column: 1 / span 2;
   grid-row: 3;
+  margin-top: -70px;
 }
 
 .item4striber img{
