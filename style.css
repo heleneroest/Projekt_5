@@ -199,20 +199,29 @@ display: grid;
 }
 
 /* Skrifttyper slut */
+.grid-container-striber{
+
 
 
 
 /* Vidste Du? start */
 
 .vidstedu-grid-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  padding: 11px;
+
 }
 
+/* /Laura skriver her */
+.grid-container-striber {
 
-.vidstedu-grid-txt {
+  display: grid;
+  grid-gap: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.grid-itemstrib{
   background-color: rgba(255, 255, 255, 0.8);
+
   padding: 50px;
   font-size: 10px;
   text-align: left;
@@ -277,53 +286,54 @@ padding: 123px;
 
 .item2forside img{
 
-}
 
-.item3forside{
-  padding: 123px;
-}
 
-.item3forside img{
+  padding: 20px;
+  font-size: 30px;
 
 }
 
-.item4forside{
-  padding: 123px;
-}
-
-.item4forside img{
-
-}
-
-.item5forside{
-  padding: 123px;
-}
-
-.item5forside img{
-
-}
-
-.item1forside{
+.item1striber {
   grid-column: 1 / span 2;
-  grid-row: 1;
+    grid-row: 1;
 }
 
-.item2forside{
-  grid-column: 1 / span 2;
+.item2striber {
+  grid-column: 1;
+    grid-row: 2;
+}
+
+.item3striber {
+  grid-column: 2;
   grid-row: 2;
 }
 
-.item3forside{
+.item3striber img{
+  width: 400px;
+  margin-top: 40px;
+}
+
+.item4striber {
   grid-column: 1 / span 2;
   grid-row: 3;
 }
 
-.item4forside{
-  grid-column: 1 / span 2;
-  grid-row: 4;
+.item4striber img{
+  width: 900px;
+  margin-top: 40px;
 }
 
-.item5forside{
+
+.item5striber {
+  grid-column: 1 / span 2;
+   grid-row: 4;
+}
+
+.item6striber {
   grid-column: 1 / span 2;
   grid-row: 5;
 }
+ .item6striber img{
+   width: 900px;
+   position: absolute;
+ }
