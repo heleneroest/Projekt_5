@@ -59,6 +59,7 @@ hr.header{
 
 .flexbox_header{
   display: flex;
+  background-color: #c52c7f;
 }
 
 .flex1{
@@ -67,6 +68,9 @@ hr.header{
 
 .flex2{
   flex: 7;
+  display: flex;
+   justify-content: center;
+   margin-right: 100px;
 }
 
 .navbar{
