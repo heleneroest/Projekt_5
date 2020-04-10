@@ -57,22 +57,6 @@ hr.header{
   display: flex;
 }
 
-.flexbox_header{
-  display: flex;
-  background-color: #c52c7f;
-}
-
-.flex1{
-  flex: 1;
-}
-
-.flex2{
-  flex: 7;
-  display: flex;
-   justify-content: center;
-   margin-right: 100px;
-}
-
 .navbar{
   flex: 1;
 }
@@ -217,18 +201,10 @@ display: grid;
 /* Skrifttyper slut */
 .grid-container-striber{
 
-
-
-
-/* Vidste Du? start */
-
-.vidstedu-grid-container {
-
 }
 
 /* /Laura skriver her */
 .grid-container-striber {
-
   display: grid;
   grid-gap: 10px;
   background-color: #ffffff;
@@ -238,75 +214,8 @@ display: grid;
 .grid-itemstrib{
   background-color: rgba(255, 255, 255, 0.8);
 
-  padding: 50px;
-  font-size: 10px;
-  text-align: left;
-   width: auto;
-}
-
-.vidstedu-grid-img {
-  object-fit: cover;
-   width: cover;
-   max-height: 100px;
-   text-align: center;
-}
-
-
-/* Vidste Du? slut */
-
-/* Header */
-header{
-  background-color: #c52c7f;
-  height: 180px;
-}
-
-.logo{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 300px;
-  padding-top: 80px;
-
-}
-
-/* Header slut*/
-/* Forside */
-.grid-containerforside{
-  display: grid;
-  grid-gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
-}
-
-.grid-itemforside{
-  background-color: #ffffff;
-  text-align: center;
-  font-size: 40px;
-}
-
-.grid-containerforside b{
-  color: #;
-}
-
-.item1forside{
-
-}
-
-.item1forside img{
-  width: 100%;
-}
-
-.item2forside{
-padding: 123px;
-}
-
-.item2forside img{
-
-
-
   padding: 20px;
   font-size: 30px;
-
 }
 
 .item1striber {
@@ -355,25 +264,24 @@ padding: 123px;
  }
 
  /* Refill start */
- .refill-grid-container {
-     height: 100vh;
+ .grid-container-refill {
      display: grid;
      grid-template-columns: 1fr 1fr;
-     grid-auto-rows: 300px 300px 300px;
+     grid-auto-rows: 1fr;
+
  }
- .refill-grid-txt {
+ .grid-item-refill {
    background-color: rgba(255, 255, 255, 0.8);
-   padding: 20px;
+   padding: 18px;
    font-size: 12px;
    text-align: left;
-   width: auto;
  }
 
- .refill-grid-img {
+ .grid-item-refill2 {
    object-fit: cover;
    width: 200px;
    max-height: 200px;
-
+   text-align: center;
  }
 
 
