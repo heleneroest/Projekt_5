@@ -111,12 +111,12 @@ display: grid;
    align-items: center;
 }
 
-.flex-container {
+.flex-container-klippekort{
   display: flex;
   transform: skewX(-20deg);
 }
 
-.flex-container > div {
+.flex-container-klippekort > div {
   background-color: #ea595e;
   opacity: 0.4;
   margin: 5px;
