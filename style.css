@@ -53,6 +53,22 @@ hr.header{
   margin: 0%;
 }
 
+.flexbox_header{
+  display: flex;
+  background-color: #c52c7f;
+}
+
+.flex1{
+  flex: 1;
+}
+
+.flex2{
+  flex: 7;
+  display: flex;
+   justify-content: center;
+   margin-right: 100px;
+}
+
 .flex-container{
   display: flex;
 }
