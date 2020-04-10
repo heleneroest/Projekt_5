@@ -57,18 +57,6 @@ hr.header{
   display: flex;
 }
 
-.flexbox_header{
-  display: flex;
-}
-
-.flex1{
-  flex: 1;
-}
-
-.flex2{
-  flex: 7;
-}
-
 .navbar{
   flex: 1;
 }
@@ -216,11 +204,7 @@ display: grid;
 
 
 
-/* Vidste Du? start */
 
-.vidstedu-grid-container {
-
-}
 
 /* /Laura skriver her */
 .grid-container-striber {
@@ -240,15 +224,36 @@ display: grid;
    width: auto;
 }
 
-.vidstedu-grid-img {
+
+
+/* Vidste Du? start */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  background-color: #2196F3;
+  padding: 50px;
+}
+ }
+ .grid-item-txt {
+   background-color: rgba(255, 255, 255, 0.8);
+   padding: 17px;
+   font-size: 12px;
+   text-align: left;
+ }
+
+ .grid-item-vidstedu2 {
   object-fit: cover;
-   width: cover;
-   max-height: 100px;
-   text-align: center;
+  width: 200px;
+  max-height: 200px;
+  text-align: center;
 }
 
 
+
 /* Vidste Du? slut */
+
+
 
 /* Header */
 header{
