@@ -67,13 +67,13 @@ hr.header{
 }
 
 .grid-container{
-display: grid;
+  display: grid;
   grid-template-columns: 1fr 2fr;
   row-gap: 5%;
 }
 
 .grid-container1{
-display: grid;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 5%;
 }
@@ -88,23 +88,28 @@ display: grid;
 .grid-container-klippekort{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  row-gap: 5;
+  row-gap: 3%;
   margin-right: 10%;
   margin-left: 10%;
   margin-top: 10%;
+  align-items: center;
 }
 
-.flex-container {
+.flex-container-klippekort{
   display: flex;
   transform: skewX(-20deg);
 }
 
-.flex-container > div {
+.flex-container-klippekort > div {
   background-color: #ea595e;
   opacity: 0.4;
   margin: 5px;
   padding: 30px;
   font-size: 30px;
+}
+/* Klippekort */
+.inactive{
+  opacity: 0.4;
 }
 
 /* Overskifter */
@@ -194,127 +199,103 @@ display: grid;
 }
 
 /* Skrifttyper slut */
-/* Header */
-header{
-  background-color: #c52c7f;
-  height: 180px;
+.grid-container-striber{
+
 }
 
-.logo{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 300px;
-  padding-top: 80px;
-}
-
-/* Header slut*/
-/* Forside */
-.grid-containerforside{
+/* /Laura skriver her */
+.grid-container-striber {
   display: grid;
-  grid-gap: 5px;
-  background-color: #000000;
-  padding: 5px;
-}
-
-.grid-itemforside{
+  grid-gap: 10px;
   background-color: #ffffff;
-  text-align: center;
-  font-size: 40px;
+  padding: 10px;
 }
 
-.item1forside img{
-  width: 950px;
+.grid-itemstrib{
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
 }
 
-.item2forside img{
-  float: left;
-  padding-left: 20px;
-  padding-top: 65px;
-  padding-bottom: 65px;
-}
-
-.refillboks{
-  float: right;
-  padding-right: 20px;
-  padding-top: 65px;
-  padding-bottom: 65px;
-}
-
-.item3forside img{
-  float: left;
-  padding-left: 20px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  height: 300px;
-  width: 170px;
-}
-
-.vidsteduboks{
-  float: left;
-  padding-left: 20px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  height: 300px;
-  width: 170px;
-}
-
-.item4forside img{
-  float: left;
-  padding-left: 20px;
-  padding-top: 65px;
-  padding-bottom: 65px;
-}
-
-.co2boks{
-  float: right;
-  padding-right: 20px;
-  padding-top: 65px;
-  padding-bottom: 65px;
-  height: 300px;
-  width: 150px;
-}
-
-.item5forside img{
-  float: left;
-  padding-left: 20px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  height: 300px;
-  width: 150px;
-}
-
-.klippekortboks{
-  float: right;
-  padding-right: 20px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  height: 225px;
-}
-
-.item1forside{
+.item1striber {
   grid-column: 1 / span 2;
-  grid-row: 1;
+    grid-row: 1;
 }
 
-.item2forside{
-  grid-column: 1 / span 2;
+.item1striber img{
+
+}
+.item2striber {
+  grid-column: 1;
+    grid-row: 2;
+}
+
+.item3striber {
+  grid-column: 2;
   grid-row: 2;
+  display: block;
+padding: 4px;
 }
 
-.item3forside{
+
+.slide{
+
+display: flex;
+width: 300px;
+height: 400px;
+object-fit: cover;
+position: relative;
+background-position: center;
+transition: 0.5s;
+}
+
+.slide img{
+position: absolute;
+animation: slide 20s infinite;
+opacity: 0;
+width: 280px;
+height: 700px;
+margin-top: 70px;
+
+margin-right: 50px;
+
+
+object-fit: cover;
+}
+
+@keyframes slide {25%{opacity:1;} 40%{opacity:0;}}
+.slide img:nth-child(1){
+animation-delay:0s;}
+.slide img:nth-child(2){
+  animation-delay:5s;}
+  .slide img:nth-child(3){
+    animation-delay:10s;}
+    .slide img:nth-child(4){
+      animation-delay:15s;}
+
+
+.item4striber {
   grid-column: 1 / span 2;
   grid-row: 3;
+  margin-top: -70px;
 }
 
-.item4forside{
+.item4striber img{
+  width: 900px;
+  margin-top: 40px;
+}
+
+
+.item5striber {
   grid-column: 1 / span 2;
-  grid-row: 4;
+   grid-row: 4;
 }
 
-.item5forside{
+.item6striber {
   grid-column: 1 / span 2;
   grid-row: 5;
 }
-
-/*Forside slut */
+ .item6striber img{
+   width: 900px;
+   position: absolute;
+ }
