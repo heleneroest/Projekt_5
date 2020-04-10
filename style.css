@@ -240,6 +240,7 @@ hr.header{
   background-color: rgba(255, 255, 255, 0.8);
 
 
+
   padding: 50px;
   font-size: 10px;
   text-align: left;
@@ -324,6 +325,7 @@ padding: 123px;
 }
 
 .item2forside img{
+
 
 
 
@@ -414,3 +416,28 @@ animation-delay:0s;}
    width: 900px;
    position: absolute;
  }
+
+
+ /* Refill start */
+ .grid-container-refill {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-auto-rows: 1fr;
+
+ }
+ .grid-item-refill {
+   background-color: rgba(255, 255, 255, 0.8);
+   padding: 18px;
+   font-size: 12px;
+   text-align: left;
+ }
+
+ .grid-item-refill2 {
+   object-fit: cover;
+   width: 200px;
+   max-height: 200px;
+   text-align: center;
+ }
+
+
+ /*Refill slut*/
