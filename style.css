@@ -212,8 +212,8 @@ header{
 /* Forside */
 .grid-containerforside{
   display: grid;
-  grid-gap: 10px;
-  background-color: #2196F3;
+  grid-gap: 5px;
+  background-color: #000000;
   padding: 5px;
 }
 
@@ -223,48 +223,73 @@ header{
   font-size: 40px;
 }
 
-.grid-containerforside b{
-  color: #;
-}
-
-.item1forside{
-
-}
-
 .item1forside img{
   width: 950px;
 }
 
-.item2forside{
-  padding: 140px;
-}
-
 .item2forside img{
-
+  float: left;
+  padding-left: 20px;
+  padding-top: 65px;
+  padding-bottom: 65px;
 }
 
-.item3forside{
-  padding: 140px;
+.refillboks{
+  float: right;
+  padding-right: 20px;
+  padding-top: 65px;
+  padding-bottom: 65px;
 }
 
 .item3forside img{
-
+  float: left;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 300px;
+  width: 170px;
 }
 
-.item4forside{
-  padding: 140px;
+.vidsteduboks{
+  float: left;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 300px;
+  width: 170px;
 }
 
 .item4forside img{
-
+  float: left;
+  padding-left: 20px;
+  padding-top: 65px;
+  padding-bottom: 65px;
 }
 
-.item5forside{
-  padding: 140px;
+.co2boks{
+  float: right;
+  padding-right: 20px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  height: 300px;
+  width: 150px;
 }
 
 .item5forside img{
+  float: left;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 300px;
+  width: 150px;
+}
 
+.klippekortboks{
+  float: right;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 225px;
 }
 
 .item1forside{
@@ -291,3 +316,5 @@ header{
   grid-column: 1 / span 2;
   grid-row: 5;
 }
+
+/*Forside slut */
