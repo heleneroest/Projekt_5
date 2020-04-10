@@ -67,13 +67,13 @@ hr.header{
 }
 
 .grid-container{
-display: grid;
+  display: grid;
   grid-template-columns: 1fr 2fr;
   row-gap: 5%;
 }
 
 .grid-container1{
-display: grid;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 5%;
 }
@@ -92,7 +92,7 @@ display: grid;
   margin-right: 10%;
   margin-left: 10%;
   margin-top: 10%;
-   align-items: center;
+  align-items: center;
 }
 
 .flex-container-klippekort{
