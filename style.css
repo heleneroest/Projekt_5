@@ -253,10 +253,11 @@ transition: 0.5s;
 position: absolute;
 animation: slide 20s infinite;
 opacity: 0;
-width: 250px;
-height: 600px;
+width: 280px;
+height: 700px;
 margin-top: 70px;
-margin-left: 25px;
+
+margin-right: 50px;
 
 
 object-fit: cover;
