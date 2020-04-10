@@ -299,3 +299,166 @@ animation-delay:0s;}
    width: 900px;
    position: absolute;
  }
+
+ /* Header */
+header{
+  background-color: #c52c7f;
+  height: 180px;
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  padding-top: 80px;
+}
+
+/* Header slut*/
+ /* Forside */
+ .grid-containerforside{
+  display: grid;
+  grid-gap: 5px;
+  background-color: #000000;
+  padding: 5px;
+}
+
+.grid-itemforside{
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 40px;
+}
+
+.item1forside img{
+  width: 950px;
+}
+
+.item2forside img{
+  float: left;
+  padding-left: 20px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.item4forside img{
+  float: right;
+  padding-right: 20px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.item5forside img{
+  float: left;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 300px;
+  width: 170px;
+}
+
+.item7forside img{
+  float: right;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 300px;
+  width: 170px;
+}
+
+.item8forside img{
+  float: left;
+  padding-left: 20px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.item10forside img{
+  float: right;
+  padding-right: 20px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  height: 300px;
+  width: 150px;
+}
+
+.item11forside img{
+  float: left;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 300px;
+  width: 150px;
+}
+
+.item13forside img{
+  float: right;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 225px;
+}
+
+.item1forside {
+  grid-column: 1 / span 3;
+  grid-row: 1;
+}
+
+.item2forside {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.item3forside {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.item4forside {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.item5forside {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.item6forside {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.item7forside {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.item8forside {
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.item9forside {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.item10forside {
+  grid-column: 3;
+  grid-row: 4;
+}
+
+.item11forside {
+  grid-column: 1;
+  grid-row: 5;
+}
+
+.item12forside {
+  grid-column: 2;
+  grid-row: 5;
+}
+
+.item13forside {
+  grid-column: 3;
+  grid-row: 5;
+}
