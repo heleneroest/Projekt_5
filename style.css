@@ -56,6 +56,8 @@ hr.header{
 .flexbox_header{
   display: flex;
   background-color: #c52c7f;
+  align-items: center;
+ justify-content: center;
 }
 
 .flex1{
