@@ -56,10 +56,13 @@ hr.header{
 .flexbox_header{
   display: flex;
   background-color: #c52c7f;
+  align-items: center;
+ justify-content: center;
 }
 
 .flex1{
   flex: 1;
+  margin-top: 45px;
 }
 
 .flex2{
@@ -417,7 +420,26 @@ animation-delay:0s;}
     padding-bottom: 5px;
   }
 
-   /* Forside slut */
+/* Forside slut */
+/* CO2 */
+.overskriftco2{
+  border-bottom: 4px solid #000;
+  margin: 0;
+  text-align: center;
+  font-size: 40px;
+}
+
+.opfyldninger{
+  font-size: 30px;
+  text-align: center;
+}
+
+.besparelse{
+  font-size: 30px;
+  text-align: center;
+}
+
+/* CO2 slut*/
 
    /* Refill start */
  .grid-container-refill {
