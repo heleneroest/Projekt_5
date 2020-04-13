@@ -1,10 +1,8 @@
 body{
   margin: 0;
-  padding: 0;
   font-family: Arial, sans-serif;
   font-size: 15px;
   line-height: 1.5;
-  box-sizing: border-box;
 }
 
 ul {
@@ -55,7 +53,6 @@ hr.header{
   margin: 0%;
 }
 
-
 .flexbox_header{
   display: flex;
   background-color: #c52c7f;
@@ -71,7 +68,6 @@ hr.header{
    justify-content: center;
    margin-right: 100px;
 }
-
 
 .flex-container{
   display: flex;
@@ -223,15 +219,6 @@ hr.header{
 
 }
 
-
-
-
-
-
-
-}
-
-
 /* /Laura skriver her */
 .grid-container-striber {
   display: grid;
@@ -242,44 +229,9 @@ hr.header{
 
 .grid-itemstrib{
   background-color: rgba(255, 255, 255, 0.8);
-
-
-
-  padding: 50px;
-  font-size: 10px;
-  text-align: left;
-   width: auto;
+  padding: 20px;
+  font-size: 30px;
 }
-
-
-
-/* Vidste Du? start */
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto ;
-  background-color: #2196F3;
-  padding: 50px;
-}
- }
- .grid-item-txt {
-   background-color: rgba(255, 255, 255, 0.8);
-   padding: 17px;
-   font-size: 12px;
-   text-align: left;
- }
-
- .grid-item-vidstedu2 {
-  object-fit: cover;
-  width: 200px;
-  max-height: 200px;
-  text-align: center;
-}
-
-
-
-/* Vidste Du? slut */
-
 
 .item1striber {
   grid-column: 1 / span 2;
@@ -364,6 +316,7 @@ animation-delay:0s;}
    position: absolute;
    height: 400px;
  }
+
 
  /* Forside */
  .main-header{
