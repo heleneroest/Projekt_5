@@ -424,6 +424,7 @@ animation-delay:0s;}
      display: grid;
      grid-template-columns: 1fr 1fr;
      grid-auto-rows: 1fr;
+     align-items: center;
 
  }
  .grid-item-refill {
