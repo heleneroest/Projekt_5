@@ -246,24 +246,18 @@ hr.header{
 
 
 /* Vidste du? Start */
-
-/* Vidste Du? start */
-
-
 .grid-container-vidstedu {
   display: grid;
   grid-template-columns: auto auto ;
   padding: 10px;
-  align-items: center;
 }
 
- .grid-item-txt {
+ .grid-item-text {
    background-color: rgba(255, 255, 255, 0.8);
    padding: 1px;
    font-size: 12px;
    text-align: left;
  }
-
 
 /* Vidste Du? slut */
 
