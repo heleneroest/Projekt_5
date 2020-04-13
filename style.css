@@ -53,7 +53,6 @@ hr.header{
   margin: 0%;
 }
 
-
 .flexbox_header{
   display: flex;
   background-color: #c52c7f;
@@ -71,7 +70,6 @@ hr.header{
    justify-content: center;
    margin-right: 100px;
 }
-
 
 .flex-container{
   display: flex;
@@ -221,14 +219,7 @@ hr.header{
 /* Skrifttyper slut */
 .grid-container-striber{
 
-
-
-
-
-
-
 }
-
 
 /* /Laura skriver her */
 .grid-container-striber {
@@ -240,26 +231,11 @@ hr.header{
 
 .grid-itemstrib{
   background-color: rgba(255, 255, 255, 0.8);
-
-
-
-  padding: 50px;
-  font-size: 10px;
-  text-align: left;
-   width: auto;
+  padding: 20px;
+  font-size: 30px;
 }
 
 
-
-/* Vidste Du? start */
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto ;
-  background-color: #2196F3;
-  padding: 50px;
-}
- }
  .grid-item-txt {
    background-color: rgba(255, 255, 255, 0.8);
    padding: 17px;
@@ -267,74 +243,30 @@ hr.header{
    text-align: left;
  }
 
- .grid-item-vidstedu2 {
-  object-fit: cover;
-  width: 200px;
-  max-height: 200px;
-  text-align: center;
+
+/* Vidste du? Start */
+
+/* Vidste Du? start */
+
+
+.grid-container-vidstedu {
+  display: grid;
+  grid-template-columns: auto auto ;
+  padding: 10px;
+  align-items: center;
 }
 
+ .grid-item-txt {
+   background-color: rgba(255, 255, 255, 0.8);
+   padding: 17px;
+   font-size: 12px;
+   text-align: left;
+ }
 
 
 /* Vidste Du? slut */
 
 
-
-/* Header */
-header{
-  background-color: #c52c7f;
-  height: 180px;
-}
-
-.logo{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 300px;
-  padding-top: 80px;
-
-}
-
-/* Header slut*/
-/* Forside */
-.grid-containerforside{
-  display: grid;
-  grid-gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
-}
-
-.grid-itemforside{
-  background-color: #ffffff;
-  text-align: center;
-  font-size: 40px;
-}
-
-.grid-containerforside b{
-  color: #;
-}
-
-.item1forside{
-
-}
-
-.item1forside img{
-  width: 100%;
-}
-
-.item2forside{
-padding: 123px;
-}
-
-.item2forside img{
-
-
-
-
-
-  padding: 20px;
-  font-size: 30px;
-}
 
 .item1striber {
   grid-column: 1 / span 2;
@@ -421,7 +353,79 @@ animation-delay:0s;}
  }
 
 
- /* Refill start */
+ /* Forside */
+ .main-header{
+   display: flex;
+   justify-content: center;
+   background-color: #c52c7f;
+   height: 130px;
+   padding: 20px;
+ }
+
+ .logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  padding-top: 75px
+ }
+
+ h1{
+   color: #000000;
+ }
+
+ h2{
+   color: #000000;
+ }
+
+ .hero{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   font-size: 25px;
+   padding: 30px;
+ }
+
+ .hero img{
+   width: 100%;
+   max-width: 100%;
+   height: auto;
+ }
+
+ .grid-containerforside{
+   display: grid;
+   grid-template-columns: auto auto auto;
+   border: 3px solid #000;
+   border-radius: 5px;
+   margin: 20px;
+ }
+
+ .grid-itemforside{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+   background-color: #ffffff;
+   border-bottom: 3px solid #000;
+   border-top: 3px solid #000;
+   font-size: 30px;
+ }
+
+ .grid-itemforside img{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+/* Forside slut */
+/* CO2 */
+
+
+/* CO2 slut*/
+
+   /* Refill start */
  .grid-container-refill {
      display: grid;
      grid-template-columns: 1fr 1fr;
