@@ -1,8 +1,10 @@
 body{
   margin: 0;
+  padding: 0;
   font-family: Arial, sans-serif;
   font-size: 15px;
   line-height: 1.5;
+  box-sizing: border-box;
 }
 
 ul {
@@ -217,6 +219,8 @@ display: grid;
 /* Skrifttyper slut */
 .grid-container-striber{
 
+}
+
 
 
 
@@ -249,64 +253,6 @@ display: grid;
    width: cover;
    max-height: 100px;
    text-align: center;
-}
-
-
-/* Vidste Du? slut */
-
-/* Header */
-header{
-  background-color: #c52c7f;
-  height: 180px;
-}
-
-.logo{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 300px;
-  padding-top: 80px;
-
-}
-
-/* Header slut*/
-/* Forside */
-.grid-containerforside{
-  display: grid;
-  grid-gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
-}
-
-.grid-itemforside{
-  background-color: #ffffff;
-  text-align: center;
-  font-size: 40px;
-}
-
-.grid-containerforside b{
-  color: #;
-}
-
-.item1forside{
-
-}
-
-.item1forside img{
-  width: 100%;
-}
-
-.item2forside{
-padding: 123px;
-}
-
-.item2forside img{
-
-
-
-  padding: 20px;
-  font-size: 30px;
-
 }
 
 .item1striber {
@@ -354,165 +300,70 @@ padding: 123px;
    position: absolute;
  }
 
- /* Header */
-header{
-  background-color: #c52c7f;
-  height: 180px;
-}
+ /* Forside */
+ .main-header{
+   display: flex;
+   justify-content: center;
+   background-color: #c52c7f;
+   height: 130px;
+   padding: 20px;
+ }
 
-.logo{
+ .logo{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 300px;
-  padding-top: 80px;
-}
+  padding-top: 75px
+ }
 
-/* Header slut*/
- /* Forside */
+ h1{
+   color: #000000;
+ }
+
+ h2{
+   color: #000000;
+ }
+
+ .hero{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   font-size: 25px;
+   padding: 30px;
+ }
+
+ .hero img{
+   width: 100%;
+   max-width: 100%;
+   height: auto;
+ }
+
  .grid-containerforside{
-  display: grid;
-  grid-gap: 5px;
-  background-color: #000000;
-  padding: 5px;
-}
+   display: grid;
+   grid-template-columns: auto auto auto;
+   border: 3px solid #000;
+   border-radius: 5px;
+   margin: 20px;
+ }
 
-.grid-itemforside{
-  background-color: #ffffff;
-  text-align: center;
-  font-size: 40px;
-}
+ .grid-itemforside{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+   background-color: #ffffff;
+   border-bottom: 3px solid #000;
+   border-top: 3px solid #000;
+   font-size: 30px;
+ }
 
-.item1forside img{
-  width: 950px;
-}
-
-.item2forside img{
-  float: left;
-  padding-left: 20px;
-  padding-top: 65px;
-  padding-bottom: 65px;
-}
-
-.item4forside img{
-  float: right;
-  padding-right: 20px;
-  padding-top: 65px;
-  padding-bottom: 65px;
-}
-
-.item5forside img{
-  float: left;
-  padding-left: 20px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  height: 300px;
-  width: 170px;
-}
-
-.item7forside img{
-  float: right;
-  padding-left: 20px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  height: 300px;
-  width: 170px;
-}
-
-.item8forside img{
-  float: left;
-  padding-left: 20px;
-  padding-top: 65px;
-  padding-bottom: 65px;
-}
-
-.item10forside img{
-  float: right;
-  padding-right: 20px;
-  padding-top: 65px;
-  padding-bottom: 65px;
-  height: 300px;
-  width: 150px;
-}
-
-.item11forside img{
-  float: left;
-  padding-left: 20px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  height: 300px;
-  width: 150px;
-}
-
-.item13forside img{
-  float: right;
-  padding-right: 20px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  height: 225px;
-}
-
-.item1forside {
-  grid-column: 1 / span 3;
-  grid-row: 1;
-}
-
-.item2forside {
-  grid-column: 1;
-  grid-row: 2;
-}
-
-.item3forside {
-  grid-column: 2;
-  grid-row: 2;
-}
-
-.item4forside {
-  grid-column: 3;
-  grid-row: 2;
-}
-
-.item5forside {
-  grid-column: 1;
-  grid-row: 3;
-}
-
-.item6forside {
-  grid-column: 2;
-  grid-row: 3;
-}
-
-.item7forside {
-  grid-column: 3;
-  grid-row: 3;
-}
-
-.item8forside {
-  grid-column: 1;
-  grid-row: 4;
-}
-
-.item9forside {
-  grid-column: 2;
-  grid-row: 4;
-}
-
-.item10forside {
-  grid-column: 3;
-  grid-row: 4;
-}
-
-.item11forside {
-  grid-column: 1;
-  grid-row: 5;
-}
-
-.item12forside {
-  grid-column: 2;
-  grid-row: 5;
-}
-
-.item13forside {
-  grid-column: 3;
-  grid-row: 5;
-}
+ .grid-itemforside img{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+   /* Forside slut */
