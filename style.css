@@ -316,3 +316,97 @@ animation-delay:0s;}
    position: absolute;
    height: 400px;
  }
+
+
+ /* Forside */
+ .main-header{
+   display: flex;
+   justify-content: center;
+   background-color: #c52c7f;
+   height: 130px;
+   padding: 20px;
+ }
+
+ .logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  padding-top: 75px
+ }
+
+ h1{
+   color: #000000;
+ }
+
+ h2{
+   color: #000000;
+ }
+
+ .hero{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   font-size: 25px;
+   padding: 30px;
+ }
+
+ .hero img{
+   width: 100%;
+   max-width: 100%;
+   height: auto;
+ }
+
+ .grid-containerforside{
+   display: grid;
+   grid-template-columns: auto auto auto;
+   border: 3px solid #000;
+   border-radius: 5px;
+   margin: 20px;
+ }
+
+ .grid-itemforside{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+   background-color: #ffffff;
+   border-bottom: 3px solid #000;
+   border-top: 3px solid #000;
+   font-size: 30px;
+ }
+
+ .grid-itemforside img{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+   /* Forside slut */
+
+   /* Refill start */
+ .grid-container-refill {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-auto-rows: 1fr;
+     align-items: center;
+
+ }
+ .grid-item-refill {
+   background-color: rgba(255, 255, 255, 0.8);
+   padding: 18px;
+   font-size: 12px;
+   text-align: left;
+ }
+
+ .grid-item-refill2 {
+   object-fit: cover;
+   width: 200px;
+   max-height: 200px;
+   text-align: center;
+ }
+
+
+ /*Refill slut*/
