@@ -55,9 +55,6 @@ hr.header{
   margin: 0%;
 }
 
-.flex-container{
-  display: flex;
-}
 
 .flexbox_header{
   display: flex;
@@ -75,6 +72,11 @@ hr.header{
    margin-right: 100px;
 }
 
+
+.flex-container{
+  display: flex;
+}
+
 .navbar{
   flex: 1;
 }
@@ -85,13 +87,13 @@ hr.header{
 }
 
 .grid-container{
-display: grid;
+  display: grid;
   grid-template-columns: 1fr 2fr;
   row-gap: 5%;
 }
 
 .grid-container1{
-display: grid;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 5%;
 }
@@ -110,7 +112,7 @@ display: grid;
   margin-right: 10%;
   margin-left: 10%;
   margin-top: 10%;
-   align-items: center;
+  align-items: center;
 }
 
 .flex-container-klippekort{
@@ -224,15 +226,14 @@ display: grid;
 
 
 
-/* Vidste Du? start */
 
-.vidstedu-grid-container {
+
 
 }
 
+
 /* /Laura skriver her */
 .grid-container-striber {
-
   display: grid;
   grid-gap: 10px;
   background-color: #ffffff;
@@ -242,24 +243,52 @@ display: grid;
 .grid-itemstrib{
   background-color: rgba(255, 255, 255, 0.8);
 
+
+
   padding: 50px;
   font-size: 10px;
   text-align: left;
    width: auto;
 }
 
-.vidstedu-grid-img {
-  object-fit: cover;
-   width: cover;
-   max-height: 100px;
-   text-align: center;
+
+
+/* Vidste Du? start */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  background-color: #2196F3;
+  padding: 50px;
 }
+ }
+ .grid-item-txt {
+   background-color: rgba(255, 255, 255, 0.8);
+   padding: 17px;
+   font-size: 12px;
+   text-align: left;
+ }
+
+ .grid-item-vidstedu2 {
+  object-fit: cover;
+  width: 200px;
+  max-height: 200px;
+  text-align: center;
+}
+
+
+
+/* Vidste Du? slut */
+
 
 .item1striber {
   grid-column: 1 / span 2;
     grid-row: 1;
 }
 
+.item1striber img{
+
+}
 .item2striber {
   grid-column: 1;
     grid-row: 2;
@@ -268,16 +297,51 @@ display: grid;
 .item3striber {
   grid-column: 2;
   grid-row: 2;
+  display: block;
+padding: 4px;
 }
 
-.item3striber img{
-  width: 400px;
-  margin-top: 40px;
+
+.slide{
+
+display: flex;
+width: 300px;
+height: 400px;
+object-fit: cover;
+position: relative;
+background-position: center;
+transition: 0.5s;
 }
+
+.slide img{
+position: absolute;
+animation: slide 20s infinite;
+opacity: 0;
+width: 300px;
+height: 400px;
+margin-top: 70px;
+
+margin-right: 50px;
+
+
+object-fit: cover;
+}
+
+@keyframes slide {25%{opacity:1;} 40%{opacity:0;}}
+.slide img:nth-child(1){
+animation-delay:0s;}
+.slide img:nth-child(2){
+  animation-delay:5s;}
+  .slide img:nth-child(3){
+    animation-delay:10s;}
+    .slide img:nth-child(4){
+      animation-delay:15s;}
+
 
 .item4striber {
   grid-column: 1 / span 2;
   grid-row: 3;
+  margin-top: -70px;
 }
 
 .item4striber img{
@@ -298,6 +362,7 @@ display: grid;
  .item6striber img{
    width: 900px;
    position: absolute;
+   height: 400px;
  }
 
  /* Forside */
@@ -365,5 +430,5 @@ display: grid;
     padding-top: 5px;
     padding-bottom: 5px;
   }
-  
+
    /* Forside slut */
