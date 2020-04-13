@@ -56,10 +56,13 @@ hr.header{
 .flexbox_header{
   display: flex;
   background-color: #c52c7f;
+  align-items: center;
+ justify-content: center;
 }
 
 .flex1{
   flex: 1;
+  margin-top: 45px;
 }
 
 .flex2{
@@ -233,6 +236,33 @@ hr.header{
   font-size: 30px;
 }
 
+
+ .grid-item-txt {
+   background-color: rgba(255, 255, 255, 0.8);
+   padding: 17px;
+   font-size: 12px;
+   text-align: left;
+ }
+
+
+/* Vidste du? Start */
+.grid-container-vidstedu {
+  display: grid;
+  grid-template-columns: auto auto ;
+  padding: 10px;
+}
+
+ .grid-item-text {
+   background-color: rgba(255, 255, 255, 0.8);
+   padding: 1px;
+   font-size: 12px;
+   text-align: left;
+ }
+
+/* Vidste Du? slut */
+
+
+
 .item1striber {
   grid-column: 1 / span 2;
     grid-row: 1;
@@ -403,7 +433,26 @@ animation-delay:0s;}
     padding-bottom: 5px;
   }
 
-   /* Forside slut */
+/* Forside slut */
+/* CO2 */
+.overskriftco2{
+  border-bottom: 4px solid #000;
+  margin: 0;
+  text-align: center;
+  font-size: 40px;
+}
+
+.opfyldninger{
+  font-size: 30px;
+  text-align: center;
+}
+
+.besparelse{
+  font-size: 30px;
+  text-align: center;
+}
+
+/* CO2 slut*/
 
    /* Refill start */
  .grid-container-refill {
