@@ -16,7 +16,7 @@
     <center><h1> KLIPPEKORT</h1></center>
     <hr class="app">
     <div class="grid-container-klippekort">
-      <img class="inactive center" src="../billeder/klippekort/dagcreme.png" alt="produktbillede af Matas striber dagcreme" style="width:190px;height:140px;">
+      <img id="target" onclick="one()" class="inactive center" onclick="increaseOpacity()" src="../billeder/klippekort/dagcreme.png" alt="produktbillede af Matas striber dagcreme" style="width:190px;height:140px;">
       <div>
         <div class="flex-container-klippekort">
           <div></div>
@@ -103,5 +103,10 @@
         </div>
       </div>
     </div>
+    <script>
+      function one(){
+        document.getElementById('target').style.opacity ='1';
+      }
+      </script>
   </body>
 </html>
