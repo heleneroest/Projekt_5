@@ -104,6 +104,7 @@ hr.header{
   align-items: center;
 }
 
+/* Klippekort */
 .grid-container-klippekort{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -126,7 +127,7 @@ hr.header{
   padding: 30px;
   font-size: 30px;
 }
-/* Klippekort */
+
 .inactive{
   opacity: 0.4;
 }
