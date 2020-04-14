@@ -461,13 +461,18 @@ animation-delay:0s;}
      display: grid;
      grid-template-columns: 1fr 1fr;
      padding: 40px;
-     align-items: center;
-
+     max-width: 100%;
  }
+
  .grid-item-refill {
    padding: 30px;
    font-size: 12px;
    text-align: left;
+ }
+
+ .grid-item-refill2 {
+   padding: 30px;
+   align-items: center;
  }
 
  /*Refill slut*/
