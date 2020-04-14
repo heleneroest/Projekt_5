@@ -251,6 +251,7 @@ hr.header{
   display: grid;
   grid-template-columns: auto auto ;
   padding: 10px;
+  align-items: center;
 }
 
  .grid-item-text {
@@ -259,6 +260,7 @@ hr.header{
    font-size: 12px;
    text-align: left;
  }
+
 
 /* Vidste Du? slut */
 
@@ -468,23 +470,19 @@ animation-delay:0s;}
  .grid-container-refill {
      display: grid;
      grid-template-columns: 1fr 1fr;
-     grid-auto-rows: 1fr;
-     align-items: center;
-
+     padding: 40px;
+     max-width: 100%;
  }
+
  .grid-item-refill {
-   background-color: rgba(255, 255, 255, 0.8);
-   padding: 18px;
+   padding: 30px;
    font-size: 12px;
    text-align: left;
  }
 
  .grid-item-refill2 {
-   object-fit: cover;
-   width: 200px;
-   max-height: 200px;
-   text-align: center;
+   padding: 30px;
+   align-items: center;
  }
-
 
  /*Refill slut*/
