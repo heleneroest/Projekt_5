@@ -1,1 +1,1 @@
-Console.log(document.head);
+console.log(document.titel);
