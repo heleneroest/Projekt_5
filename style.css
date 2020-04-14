@@ -250,6 +250,7 @@ hr.header{
   display: grid;
   grid-template-columns: auto auto ;
   padding: 10px;
+  align-items: center;
 }
 
  .grid-item-text {
@@ -258,6 +259,7 @@ hr.header{
    font-size: 12px;
    text-align: left;
  }
+
 
 /* Vidste Du? slut */
 
