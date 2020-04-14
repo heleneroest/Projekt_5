@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  padding: 0;
   font-family: Arial, sans-serif;
   font-size: 15px;
   line-height: 1.5;
@@ -452,6 +453,15 @@ animation-delay:0s;}
   text-align: center;
 }
 
+#counter{
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 9;
+}
+ 
 /* CO2 slut*/
 
    /* Refill start */
