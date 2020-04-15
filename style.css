@@ -42,6 +42,9 @@ li a:hover:not(.active) {
   width: 50%;
 }
 
+.textcenter{
+  text-align: center;
+}
 hr{
   margin-left: 0%;
   margin-right: 2%;
@@ -106,6 +109,11 @@ hr.header{
 }
 
 /* Klippekort */
+.flex-container-big{
+  margin-bottom: 400px;
+  display: flex;
+  flex-direction: column;
+}
 .grid-container-klippekort{
   display: grid;
   grid-template-columns: 1fr 1fr;
