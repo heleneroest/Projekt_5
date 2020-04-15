@@ -42,6 +42,9 @@ li a:hover:not(.active) {
   width: 50%;
 }
 
+.textcenter{
+  text-align: center;
+}
 hr{
   margin-left: 0%;
   margin-right: 2%;
@@ -106,6 +109,11 @@ hr.header{
 }
 
 /* Klippekort */
+.flex-container-big{
+  margin-bottom: 400px;
+  display: flex;
+  flex-direction: column;
+}
 .grid-container-klippekort{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -260,7 +268,12 @@ hr.header{
    padding: 1px;
    font-size: 12px;
    text-align: left;
- }
+}
+
+.overskriftvidstedu {
+   text-align: center;
+}
+
 
 
 /* Vidste Du? slut */
@@ -448,15 +461,51 @@ border: 2px solid pink;
 .besparelse{
   font-size: 30px;
   text-align: center;
+  padding-top: 600px;
 }
 
 #counter{
-  background-color: red;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%,-50%);
   z-index: 9;
+}
+
+#circle1{
+  height: 165px;
+  width: 165px;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+}
+
+#shadowring{
+  height: 165px;
+  width: 165px;
+  border-radius: 50%;
+  box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 99;
+}
+
+#circle2{
+  height: 196px;
+  width: 196px;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
 }
 
 /* CO2 slut*/

@@ -20,3 +20,14 @@ function c5(){
 function c6(){
   document.getElementById("target6").style.opacity ='1';
 }
+
+function myFunction() {
+  var person = {fname:"John", lname:"Doe", age:25};
+
+  var text = "";
+  var x;
+  for (x in person) {
+    text += person[x] + " ";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
