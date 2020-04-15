@@ -1,4 +1,4 @@
-console.log(document.head);
+console.log(document.body);
 
 var myImage = document.getElementById('mainImage');
 var imageArray = ["../billeder/gettyimages-176165730.jpg", "../billeder/scan_003.jpg", "../billeder/scan_007.jpg"]; //image container//
