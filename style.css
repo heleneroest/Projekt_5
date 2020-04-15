@@ -452,8 +452,9 @@ border: 2px solid pink;
 }
 
 #counter{
+  background-color: red;
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   z-index: 9;
