@@ -346,6 +346,21 @@ animation-delay:0s;}
   grid-row: 5;
 }
 
+.item6striber img{
+  display: block;
+  width: 900px;
+}
+
+.item7striber{
+  grid-column: 1 / span 2;
+  grid-row: 6;
+margin-top: -30px;
+}
+
+.item7striber button{
+background-color: #ffffff;
+border: 2px solid pink;
+  }
 
 
 /*LAura Slut*/
@@ -426,14 +441,14 @@ animation-delay:0s;}
 }
 
 .opfyldninger{
-  text-align: center;
   font-size: 30px;
+  text-align: center;
 }
 
 .besparelse{
-  text-align: center;
   font-size: 30px;
-  padding-top: 700px;
+  text-align: center;
+  padding-top: 600px;
 }
 
 #counter{
@@ -447,7 +462,7 @@ animation-delay:0s;}
 #circle1{
   height: 165px;
   width: 165px;
-  background-color: #000000;
+  background-color: #000;
   border-radius: 50%;
   position: absolute;
   top: 40%;
@@ -471,7 +486,7 @@ animation-delay:0s;}
 #circle2{
   height: 196px;
   width: 196px;
-  background-color: #bbd9db;
+  background-color: #000;
   border-radius: 50%;
   position: absolute;
   top: 40%;
@@ -479,6 +494,7 @@ animation-delay:0s;}
   transform: translate(-50%,-50%);
   z-index: -1;
 }
+
 /* CO2 slut*/
 
    /* Refill start */
