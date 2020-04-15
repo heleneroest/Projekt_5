@@ -1,8 +1,8 @@
-console.log(document.head);
+console.log(document.head); //HTML DOM head property
 
-//husk billeder
-var myImage = document.getElementById('mainImage');
-var imageArray = ["../billeder/matas-striber-refill.png", "../billeder/matas-striber-refill-3.png", "../billeder/matas-striber-refill-2.png"]; //image container//
+
+var myImage = document.getElementById('mainImage'); //DOM
+var imageArray = ["../billeder/matas-striber-refill.png", "../billeder/matas-striber-refill-3.png", "../billeder/matas-striber-refill-2.png"]; //image container
 var imageIndex = 1;
 
 function changeImage(){
