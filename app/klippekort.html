@@ -13,18 +13,18 @@
       </div>
     </header>
     <hr class="header">
-    <center><h1> KLIPPEKORT</h1></center>
+    <h1 class="textcenter">KLIPPEKORT</h1>
     <hr class="app">
     <div class="grid-container-klippekort">
-      <img id="target" onclick="one()" class="inactive center" onclick="increaseOpacity()" src="../billeder/klippekort/dagcreme.png" alt="produktbillede af Matas striber dagcreme" style="width:190px;height:140px;">
+      <img id="target" onclick="one()" class="inactive center" src="../billeder/klippekort/dagcreme.png" alt="produktbillede af Matas striber dagcreme" style="width:190px;height:140px;">
       <div>
         <div class="flex-container-klippekort">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div id="target1" onclick="c1()"></div>
+          <div id="target2" onclick="c2()"></div>
+          <div id="target3" onclick="c3()"></div>
+          <div id="target4" onclick="c4()"></div>
+          <div id="target5" onclick="c5()"></div>
+          <div id="target6" onclick="c6()"></div>
         </div>
       </div>
         <img class="inactive center" src="../billeder/klippekort/shampoo.png" alt="produktbillede af Matas striber dagcreme" style="width:70px;height:216px;">
@@ -103,10 +103,6 @@
         </div>
       </div>
     </div>
-    <script>
-      function one(){
-        document.getElementById('target').style.opacity ='1';
-      }
-      </script>
+      <script src="../javascript/klippekort.js"></script>
   </body>
 </html>
