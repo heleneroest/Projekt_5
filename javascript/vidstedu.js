@@ -1,5 +1,3 @@
-console.log(document.body);
-
 // Var som betyder variabler er dataværdier)
 var myImage = document.getElementById('mainImage'); //mainImage for at koble sammen med HTML billede
 var imageArray = ["../billeder/gettyimages-176165730.jpg", "../billeder/scan_003.jpg", "../billeder/scan_007.jpg"]; //Imagearray image container-> det er det de billeder vi bruger i slideshow)
