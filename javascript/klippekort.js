@@ -21,13 +21,27 @@ function c6(){
   document.getElementById("target6").style.opacity ='1';
 }
 
-function myFunction() {
-  var person = {fname:"John", lname:"Doe", age:25};
+function myFunction(){
+  var kunder = ["Hanne", " Line", " Søren"];
+  document.getElementById("kundeliste").innerHTML = kunder;
+}
 
-  var text = "";
-  var x;
-  for (x in person) {
-    text += person[x] + " ";
+function myFunction2() {
+  var time = new Date().getHours();
+  var hilsen;
+  if (time < 18) {
+    hilsen = "God dag";
+  } else {
+    hilsen = "God aften";
   }
-  document.getElementById("demo").innerHTML = text;
+  document.getElementById("enhilsen").innerHTML = hilsen;
+}
+
+function myFunction3(){
+  var kunder = ["Hanne", " Line", " Søren"];
+  var i, len, text;
+  for (i = 1, len = kunder.length, text = ""; i < len+1; i++) {
+    text += kunder[i] + " er kunde nummer " + i + "<br>";
+}
+document.getElementById("kundenummer").innerHTML = text;
 }
