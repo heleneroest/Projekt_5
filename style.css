@@ -346,8 +346,23 @@ animation-delay:0s;}
   grid-row: 5;
 }
 
+.item6striber img{
+  display: block;
+  width: 900px;
+}
 
+.item7striber{
+  grid-column: 1 / span 2;
+  grid-row: 6;
+margin-top: -30px;
+}
 
+.item7striber button{
+background-color: #ffffff;
+border: 2px solid pink;
+  }
+
+  
 /*LAura Slut*/
 
  /* Forside */
@@ -443,7 +458,7 @@ animation-delay:0s;}
   transform: translate(-50%,-50%);
   z-index: 9;
 }
- 
+
 /* CO2 slut*/
 
    /* Refill start */
