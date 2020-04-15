@@ -26,6 +26,15 @@ function myFunction(){
   document.getElementById("kundeliste").innerHTML = kunder;
 }
 
+function myFunction3(){
+  var kunder = ["Hanne", " Line", " Søren"];
+  var i, len, tekst;
+  for (i = 1, len = kunder.length, tekst = ""; i <len+1; i++) {
+    tekst += kunder[i] + " er kunde nummer " + i + "<br>";
+}
+document.getElementById("kundenummer").innerHTML = tekst;
+}
+
 function myFunction2() {
   var time = new Date().getHours();
   var hilsen;
@@ -35,13 +44,4 @@ function myFunction2() {
     hilsen = "God aften";
   }
   document.getElementById("enhilsen").innerHTML = hilsen;
-}
-
-function myFunction3(){
-  var kunder = ["Hanne", " Line", " Søren"];
-  var i, len, text;
-  for (i = 1, len = kunder.length, text = ""; i < len+1; i++) {
-    text += kunder[i] + " er kunde nummer " + i + "<br>";
-}
-document.getElementById("kundenummer").innerHTML = text;
 }
