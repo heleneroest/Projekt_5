@@ -10,15 +10,15 @@ function fillCounter(){
 
   counter.clearRect(0,0,cw,ch); //Clear canvas every time when function is call
 
-  counter.lineWidth = 15; // Sixe of stroke
+  counter.lineWidth = 20; // Sixe of stroke
 
   counter.fillStyle = '#fff'; // Color that you want to fill in the counter/circle
 
-  counter.strokeStyle = '#c25c5f'; //Stroke Color
+  counter.strokeStyle = '#c52c7f'; //Stroke Color
 
   counter.textAlign = 'center';
 
-  counter.font = "25px monospace" //Set font size and face
+  counter.font = "40px monospace"; //Set font size and face
 
   counter.fillText(no,100,110); // fillText(text,x,y)
 
@@ -29,7 +29,7 @@ function fillCounter(){
 
   // Now add condition
 
-  if(no>=20)
+  if(no>=10)
   {
     clearTimeout(fill); // Fill is a variable that call the funcion fillcounter()
   }
