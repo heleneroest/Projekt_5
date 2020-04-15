@@ -268,7 +268,12 @@ hr.header{
    padding: 1px;
    font-size: 12px;
    text-align: left;
- }
+}
+
+.overskriftvidstedu {
+   text-align: center;
+}
+
 
 
 /* Vidste Du? slut */
